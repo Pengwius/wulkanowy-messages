@@ -72,8 +72,9 @@ gradle-app.setting
 classes
 .DS_Store
 .idea/libraries-with-intellij-classes.xml
-dist/
+#dist/
 !dist/favicon.ico
 .idea/jsonSchemas.xml
 .idea/kotlinc.xml
 .idea/jpa-buddy.xml
+local.properties

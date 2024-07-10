@@ -2,6 +2,19 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 96,
+        title = "Witaj w Wolnym Wulkanowym!",
+        content = "Tutaj będą pojawiały się informacje o nowych wersjach aplikacji. Miłego korzystania z apki!",
+        priority = MessagePriority.LOW,
+        messageTypes = listOf(
+            MessageType.DASHBOARD_MESSAGE,
+        ),
+        isVisible = true,
+        isXVisible = true,
+        isDismissible = true,
+        isOkVisible = true
+    ),
+    Message(
         id = 95,
         title = "Wulkanowy powstał ponad 8 lat temu...",
         content = "Kliknij, aby przeczytać podsumowania i podziękowania",
