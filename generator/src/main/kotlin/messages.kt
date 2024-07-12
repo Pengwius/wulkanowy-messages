@@ -2,6 +2,18 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 97,
+        title = "Dostępna aktualizacja!",
+        content = "Kliknij w tą wiadomość, aby pobrać aktualizację",
+        priority = MessagePriority.MEDIUM,
+        destinationUrl = "https://github.com/Pengwius/freewulkanowy/releases/download/freewulkanowy-1.0.1/freewulkanowy.apk",
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
+        isVisible = true,
+        versionMax = 177,
+    ),
+    Message(
         id = 96,
         title = "Witaj w Wolnym Wulkanowym!",
         content = "Tutaj będą pojawiały się informacje o nowych wersjach aplikacji. Miłego korzystania z apki!",
