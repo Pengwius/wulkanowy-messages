@@ -36,6 +36,8 @@ val messages = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
         isVisible = true,
+        isDismissible = true,
+        isOkVisible = true
     ),
     Message(
         id = 94,
