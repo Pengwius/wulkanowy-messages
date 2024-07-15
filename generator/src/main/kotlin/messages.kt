@@ -2,6 +2,18 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 99,
+        title = "Dostępna aktualizacja!",
+        content = "Kliknij, aby pobrać aktualizację. Przeczytaj uważnie changelog!",
+        priority = MessagePriority.MEDIUM,
+        destinationUrl = "https://github.com/Pengwius/freewulkanowy/releases/tag/freewulkanowy-1.0.3",
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
+        isVisible = true,
+        versionMax = 179,
+    ),
+    Message(
         id = 98,
         title = "Dostępna aktualizacja!",
         content = "Kliknij, aby pobrać aktualizację. Przeczytaj uważnie changelog!",
@@ -10,7 +22,7 @@ val messages = listOf(
         messageTypes = listOf(
             MessageType.GENERAL_MESSAGE,
         ),
-        isVisible = true,
+        isVisible = false,
         versionMax = 178,
     ),
     Message(
@@ -22,7 +34,7 @@ val messages = listOf(
         messageTypes = listOf(
             MessageType.GENERAL_MESSAGE,
         ),
-        isVisible = true,
+        isVisible = false,
         versionMax = 177,
     ),
     Message(
@@ -47,7 +59,7 @@ val messages = listOf(
         messageTypes = listOf(
             MessageType.DASHBOARD_MESSAGE,
         ),
-        isVisible = true,
+        isVisible = false,
         isDismissible = true,
         isOkVisible = true
     ),
