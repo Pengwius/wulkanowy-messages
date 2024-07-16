@@ -32,8 +32,8 @@ private val ApiEndpoints0006Student = mapOf(
     "Statystyki" to "59a8772d-8082-4927-8351-a711da917995",
     "SzkolaINauczyciele" to "4aafbcb8-0b92-4dcb-849a-1a69f8d0cf63",
     "Uczen" to "badb2896-942f-4c80-8eeb-a6c0cdaada96",
-    "UczenCache" to "333dce23-9766-4f2a-bc30-689bc04f0765",
-    "UczenDziennik" to "6a523e4e-28dd-4123-98e5-ee10604f9e0b",
+    "UczenCache" to "be5e0cdc-b442-41ea-8079-1fc2ebde99a8",
+    "UczenDziennik" to "1c462d92-8b30-4c3d-9803-cc1caac26da0",
     "UczenZdjecie" to "8923cafb-ff76-4305-84c3-d2ae4891306c",
     "Usprawiedliwienia" to "982537df-6fb1-47ef-a9e0-1ee68e3b868f",
     "UwagiIOsiagniecia" to "e5cd2a74-a930-46a4-81db-66cd05506cff",
@@ -649,6 +649,11 @@ val ApiEndpointsMapV4 = ApiEndpointsMap + mapOf(
         "uonetplus-wiadomosciplus" to ApiEndpoints00010Messages,
     ),
     "24.05.0003.59126" to mapOf(
+        "uonetplus-uczen" to UonetPlusUczen_24_04_0010_58863,
+        "uonetplus-uczenplus" to ApiEndpoints0010StudentPlus,
+        "uonetplus-wiadomosciplus" to ApiEndpoints00010Messages,
+    ),
+    "24.06.0002.59394" to mapOf(
         "uonetplus-uczen" to UonetPlusUczen_24_04_0010_58863,
         "uonetplus-uczenplus" to ApiEndpoints0010StudentPlus,
         "uonetplus-wiadomosciplus" to ApiEndpoints00010Messages,
