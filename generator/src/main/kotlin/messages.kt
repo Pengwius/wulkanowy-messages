@@ -9,6 +9,8 @@ val messages = listOf(
         destinationUrl = "https://wezuwiusz.eu/",
         messageTypes = listOf(
             MessageType.GENERAL_MESSAGE,
+            MessageType.LOGIN_MESSAGE,
+            MessageType.LOGIN_STUDENT_SELECT_MESSAGE,
         ),
         isVisible = true,
         isDismissible = false,
