@@ -2,6 +2,20 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 100,
+        title = "Nowa aplikacja",
+        content = "Kliknij tutaj, aby pobrać nowy dziennik - Wezuwiusz. Ta aplikacja nie będzie już aktualizowana.",
+        priority = MessagePriority.MEDIUM,
+        destinationUrl = "https://wezuwiusz.eu/",
+        messageTypes = listOf(
+            MessageType.GENERAL_MESSAGE,
+        ),
+        isVisible = true,
+        isDismissible = false,
+        isOkVisible = false,
+        versionMax = 179,
+    ),
+    Message(
         id = 99,
         title = "Dostępna aktualizacja!",
         content = "Kliknij, aby pobrać aktualizację. Przeczytaj uważnie changelog!",
